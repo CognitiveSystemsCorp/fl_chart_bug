@@ -58,16 +58,11 @@ class _MyHomePageState extends State<MyHomePage> {
             minX: 0,
             maxY: 10,
             maxX: 10,
-            borderData: FlBorderData(
-              show: true,      
-            ),  
+ 
             lineBarsData: [
               LineChartBarData(
                 spots: points,
-                dotData: FlDotData(
-                  show: false,
-                ),
-              ),         
+              ), 
             ],
             titlesData: FlTitlesData(
               show: false,
